@@ -1,0 +1,15 @@
+schema_version: 1
+repository: resource-allocation-optimization
+role: umbrella
+axis: problem-class
+area: resource-allocation
+status: active
+owner: jorsacademy
+projects:
+  - hungarian-assignment-optimization-python
+  - risk-based-resource-allocation-milp-python
+  - scarce-water-resource-allocation-optimization
+conventions:
+  provenance_records: true
+  reproducibility_expected: true
+  benchmark_assumptions_documented: true
