@@ -1,0 +1,22 @@
+name: Market Design
+
+on:
+  push:
+    paths:
+      - 'projects/market-design-mechanism-design-and-incentives/**'
+      - '.github/workflows/market-design.yml'
+  pull_request:
+    paths:
+      - 'projects/market-design-mechanism-design-and-incentives/**'
+      - '.github/workflows/market-design.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r projects/market-design-mechanism-design-and-incentives/requirements.txt
+      - run: PYTHONPATH=projects/market-design-mechanism-design-and-incentives pytest -q projects/market-design-mechanism-design-and-incentives
