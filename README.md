@@ -8,6 +8,7 @@ This repository is the primary umbrella repository for this Jors Academy researc
 ### Included projects
 
 - [`hungarian-assignment-optimization-python`](projects/hungarian-assignment-optimization-python/)
+- [`multi-agent-market-based-resource-allocation`](projects/multi-agent-market-based-resource-allocation/) — centralized exact allocation versus decentralized marginal-value coordination
 - [`risk-based-resource-allocation-milp-python`](projects/risk-based-resource-allocation-milp-python/)
 - [`scarce-water-resource-allocation-optimization`](projects/scarce-water-resource-allocation-optimization/)
 
