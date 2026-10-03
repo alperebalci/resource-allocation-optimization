@@ -6,6 +6,7 @@ area: resource-allocation
 status: active
 owner: jorsacademy
 projects:
+  - data-envelopment-analysis-efficiency
   - hungarian-assignment-optimization-python
   - multi-agent-market-based-resource-allocation
   - risk-based-resource-allocation-milp-python

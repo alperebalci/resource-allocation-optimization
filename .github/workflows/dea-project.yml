@@ -1,0 +1,27 @@
+name: DEA project CI
+
+on:
+  push:
+    paths:
+      - 'projects/data-envelopment-analysis-efficiency/**'
+      - '.github/workflows/dea-project.yml'
+  pull_request:
+    paths:
+      - 'projects/data-envelopment-analysis-efficiency/**'
+      - '.github/workflows/dea-project.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/data-envelopment-analysis-efficiency
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: python -m pip install -e '.[dev]'
+      - name: Test
+        run: pytest
