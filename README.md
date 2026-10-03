@@ -53,6 +53,16 @@ Default strategic weights:
 
 The 90% factor creates a small optimization tolerance while still forcing the solution to respect the intended strategic distribution.
 
+## Fairness-aware extension
+
+The repository now includes a modern IE/OR teaching extension for explicit fairness-efficiency trade-offs and human-centered decision support:
+
+- [`src/fair_allocator.py`](src/fair_allocator.py) adds a service-parity constraint to the base MILP;
+- [`docs/fairness_and_human_centered_allocation.md`](docs/fairness_and_human_centered_allocation.md) explains the policy interpretation, governance boundary, and cost-vs-parity frontier;
+- [`tests/test_fair_allocator.py`](tests/test_fair_allocator.py) validates the fairness constraint and trade-off behavior.
+
+The fairness metric is site-level service parity based on declared service need. It does not infer or model protected demographic attributes.
+
 ## Project structure
 
 ```text
