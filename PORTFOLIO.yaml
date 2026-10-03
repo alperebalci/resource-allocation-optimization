@@ -5,8 +5,7 @@ axis: problem-class
 area: resource-allocation
 status: active
 owner: jorsacademy
-projects:
-  - hungarian-assignment-optimization-python
+projects:\n  - data-envelopment-analysis-efficiency\n  - hungarian-assignment-optimization-python
   - multi-agent-market-based-resource-allocation
   - risk-based-resource-allocation-milp-python
   - scarce-water-resource-allocation-optimization
