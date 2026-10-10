@@ -1,14 +1,14 @@
 name: DEA project CI
 
+
 on:
   push:
-    paths:
-      - 'projects/data-envelopment-analysis-efficiency/**'
-      - '.github/workflows/dea-project.yml'
+    branches: [main]
   pull_request:
-    paths:
-      - 'projects/data-envelopment-analysis-efficiency/**'
-      - '.github/workflows/dea-project.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   test:
