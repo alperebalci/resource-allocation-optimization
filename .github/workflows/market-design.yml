@@ -1,14 +1,12 @@
 name: Market Design
 
+# Required baseline runs on each main commit and every pull request.
+# Path-scoped workflows may remain as additional specialized checks.
 on:
   push:
-    paths:
-      - 'projects/market-design-mechanism-design-and-incentives/**'
-      - '.github/workflows/market-design.yml'
+    branches: [main]
   pull_request:
-    paths:
-      - 'projects/market-design-mechanism-design-and-incentives/**'
-      - '.github/workflows/market-design.yml'
+  workflow_dispatch:
 
 jobs:
   test:
