@@ -9,6 +9,9 @@ projects:
   - data-envelopment-analysis-efficiency
   - hungarian-assignment-optimization-python
   - multi-agent-market-based-resource-allocation
+  - market-design-mechanism-design-and-incentives
+  - adversarial-game-theoretic-optimization
+  - leader-follower-bilevel-pricing
   - risk-based-resource-allocation-milp-python
   - scarce-water-resource-allocation-optimization
 conventions:
