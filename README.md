@@ -12,6 +12,7 @@ This repository is the primary umbrella repository for this Jors Academy researc
 - [`multi-agent-market-based-resource-allocation`](projects/multi-agent-market-based-resource-allocation/) — centralized exact allocation versus decentralized marginal-value coordination
 - [`market-design-mechanism-design-and-incentives`](projects/market-design-mechanism-design-and-incentives/) — welfare-maximizing assignment, VCG payments and stable matching
 - [`adversarial-game-theoretic-optimization`](projects/adversarial-game-theoretic-optimization/) — Stackelberg security allocation, exact small-network interdiction and robust attacker-defender resource allocation
+- [`leader-follower-bilevel-pricing`](projects/leader-follower-bilevel-pricing/) — finite Stackelberg pricing/capacity decisions, exact follower allocation and optimistic/pessimistic response policies
 - [`risk-based-resource-allocation-milp-python`](projects/risk-based-resource-allocation-milp-python/)
 - [`scarce-water-resource-allocation-optimization`](projects/scarce-water-resource-allocation-optimization/)
 
