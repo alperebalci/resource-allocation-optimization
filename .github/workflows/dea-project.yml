@@ -12,6 +12,7 @@ permissions:
 
 jobs:
   test:
+    name: DEA model tests
     runs-on: ubuntu-latest
     defaults:
       run:
